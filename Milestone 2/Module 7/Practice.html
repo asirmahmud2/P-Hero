@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        .container{
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            border: 1px solid red;
+        }
+        .div1{
+            background-color: aqua;
+            width: 30vw;
+            height: 100vh;
+        }
+        .div2{
+            background-color: rgb(87, 182, 32);
+            width: 70vw;
+            height: 100vh;
+        }
+        @media screen and (max-width:576px) {
+            .container{
+            display: flex;
+            flex-direction: column;
+            width: 100vw;
+            height: 100vh;
+            border: 1px solid red;
+        }
+        .div1{
+            width: 100vw;
+            height: 30vh;
+        }
+        .div2{
+            background-color: rgb(87, 182, 32);
+            width: 100vw;
+            height: 70vh;
+        }
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div class="div1">
+            <p>DIV 1</p>
+        </div>
+        <div class="div2">
+            <p>DIV 2</p>
+        </div>
+    </section>
+</body>
+</html>
