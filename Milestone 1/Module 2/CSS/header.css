@@ -1,0 +1,29 @@
+.article{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 40px;
+    box-shadow: 15px -5px 10px grey;
+    background-color: antiquewhite;
+    width: 80%;
+    text-align: justify center;
+}
+h2{
+    text-align: center;
+}
+.header{
+    height: 300px;
+    width: 300px;
+    background-color: lightblue;
+    background-image: url('../Images/Black Dude.webp');
+    background-size: cover;
+    background-position: center;
+    color: rgb(21, 46, 158);
+    background-repeat: no-repeat;
+    padding: 40px;
+}
+*{
+    margin: 20px;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 30px;
+}

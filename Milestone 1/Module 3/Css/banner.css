@@ -1,0 +1,31 @@
+.banner {
+    display: flex;
+    background-color: beige;
+    align-items: center;
+    
+}
+
+/* NEW: give left & right space ratio */
+.banner > div:first-child {
+    flex: 6; /* text area = 60% */
+    text-align: justify;
+    padding: 10px 40px;
+
+}
+
+.banner > div:last-child {
+    flex: 4; /* image area = 40% */
+}
+
+.banner img {
+    width: 100%;          /* CHANGED: was 200%, caused overflow */
+    height: 400px;
+    border-radius: 25px;
+    object-fit: cover;    /* NEW: keeps image proportion inside box */
+}
+
+body{
+    max-width: 800px;
+    background-color: brown;
+    margin: 0 auto;
+}

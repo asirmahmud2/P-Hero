@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <link rel="stylesheet" href="Css/nav.css">
+    <style>
+        .container{
+            display: flex;
+        }
+        .container div{
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            text-align: center;
+        }
+        .box-container{
+            display: flex;
+            gap: 50px;
+        }
+        .box{
+            font-size: 4em;
+            height: 100px;
+            width: 100px;
+            border: 2px solid slategray;
+        }
+        .user-container{
+            display: flex;
+            justify-content: space-around;
+        }
+        .user{
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            background-color: brown;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="auto.html">Auto</a></li>
+                <li><a href="Centre.html">center</a></li>
+                <li><a href="flex.html">Flex</a></li>
+                <li><a href="media.html">media</a></li>
+                <li><a href="Structured.html">Structured</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+    <div class="box-container">
+        <!-- .box{$}*5 -->
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+    <div class="card-container">
+        <!-- .user{user-$}*3 -->
+        <div class="user">user-1</div>
+        <div class="user">user-2</div>
+        <div class="user">user-3</div>
+    </div>
+</body>
+</html>

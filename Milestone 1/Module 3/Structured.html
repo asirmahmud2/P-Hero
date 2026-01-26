@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/nav.css">
+    <style>
+        form .Info label{
+            display: block;
+            margin-top: 5px ;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="auto.html">Auto</a></li>
+                <li><a href="Centre.html">center</a></li>
+                <li><a href="flex.html">Flex</a></li>
+                <li><a href="media.html">media</a></li>
+                <li><a href="Structured.html">Structured</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Pitha Ghar</h1>
+        <form>
+          <fieldset class="Info">
+            <legend>Basic Info</legend>
+            <label for="name">Name:-</label>
+            <input type="text" name="" id="name" />
+
+            <label for="email">Email:-</label>
+            <input type="email" name="" id="email" />
+          </fieldset>
+
+          <fieldset>
+            <legend>Pitha info</legend>
+
+            <input type="radio" name="pitha" id="chitoy" />
+            <label for="chitoy">chitoy</label>
+
+            <input type="radio" name="pitha" id="vapa" />
+            <label for="vapa">Vapa Pitha</label>
+
+            <input type="radio" name="pitha" id="puri" />
+            <label for="puri">Puri </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>All Type Of Bhorta</legend>
+
+            <input type="checkbox" name="vorta" id="alo" />
+            <label for="alo">Alo Bhorta</label>
+            <input type="checkbox" name="vorta" id="begon" />
+            <label for="begon">Begon Bhorta</label>
+            <input type="checkbox" name="vorta" id="shutki" />
+            <label for="shutki">Shutki Bhorta</label>
+          </fieldset>
+          <fieldset>
+            <legend>Feedback</legend>
+            <textarea rows="6" cols="50" name="" id=""></textarea>
+          </fieldset>
+          <input type="submit" value="submit" />
+          <input type="reset" value="clear" />
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

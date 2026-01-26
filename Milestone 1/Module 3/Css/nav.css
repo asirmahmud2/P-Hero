@@ -1,0 +1,14 @@
+nav ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li:hover{
+    background-color: aquamarine;
+}
