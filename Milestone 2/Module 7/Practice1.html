@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Full-screen image</title>
+    <style>
+        /* remove default margins and prevent scrollbars */
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        /* container sized to viewport */
+        .container {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        /* image fills container; excess is cropped */
+        .container img {
+            width: 100%;
+            height: 100%;
+            display: block;
+            /* remove inline-gap */
+            object-fit: cover;
+            /* scale and crop to fill */
+            object-position: center;
+            /* change to top / left if you want different crop */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="Lake.jpg" alt="Lake">
+    </div>
+</body>
+
+</html>
