@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+        .container {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, 200px) 50px 50px;
+        }
+
+        .box {
+            background-color: aqua;
+            padding: 20px;
+        }
+
+        #side {
+            grid-row: span 5;
+        }
+
+        .footer {
+            grid-column: span 3;
+        }
+
+        @media screen and (max-width:576px) {
+            .container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: none;
+                grid-auto-rows: 200px;
+            }
+
+            #side ,.footer, .box{
+                grid-row: span 1;
+                grid-column: span 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="side" class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-5</div>
+        <div class="box">box-6</div>
+        <div class="box">box-7</div>
+        <div class="box">box-8</div>
+        <div class="box">box-9</div>
+        <div class="box">box-10</div>
+        <div class="box footer">box-11</div>
+        <div class="box footer">box-12</div>
+    </div>
+</body>
+
+</html>
