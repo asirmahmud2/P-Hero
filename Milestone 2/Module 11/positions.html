@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+    <style>
+        .banner{
+            max-width: 1600px;
+            background-image: url(images/hero-bg.png);
+            height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .circle-container{
+            position: relative;
+            justify-content: center;
+            display: flex;
+        }
+        .badge{
+            position: absolute;
+            z-index: 1;
+            background-color: greenyellow;
+            padding: 10px 10px;
+            border-radius: 10000px;
+            left: 330px;
+            top: 40px;
+        }
+        .mic{
+            position: absolute;
+            top: 90px;
+            left: 170px;
+        }
+        .banner-text{
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+        .banner-text h2{
+            font-size: 3rem;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- BANNER -->
+        <section class="banner">
+            <div class="banner-container">
+                <div class="circle-container">
+                    <span class="badge">NEW</span>
+                    <div>
+                        <img src="images/hero-circle.png" alt="" class="crcl">
+                    </div>
+                    <div class="circle">
+                        <img src="Images/microphone.png" alt="" class="mic">
+                    </div>
+                </div>
+                <div class="banner-text">
+                    <h2>TechWave</h2>
+                    <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                </div>
+            </div>
+        </section>
+</body>
+</html>
