@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handler</title>
+</head>
+<body>
+    <h1 id="title-text">Event Handler</h1>
+    <button id="update-title">update title</button>
+    <br><br><br>
+
+    <!-- Handle Input Text -->
+     <p id="des">No name</p>
+     <input id="input-name" placeholder="Your Name" type="text">
+     <button id="name">Update</button>
+    <script>
+        document.getElementById('update-title').addEventListener('click', function(){
+            const titleText=document.getElementById('title-text');
+            titleText.innerText="Text Changed";
+        })
+
+        document.getElementById('name').addEventListener('click',function(){
+            const inputName = document.getElementById('input-name');
+            const name=document.getElementById('des');
+            name.innerText= 'Hi, '+ inputName.value;
+        })
+    </script>
+    <script src="handler.js"></script>
+</body>
+</html>

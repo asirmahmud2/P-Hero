@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Event</title>
+</head>
+
+<body>
+    <!-- Option 1 for Event Handler -->
+    <button onclick="console.log('Asir Mahmud')"> Click Me</button>
+    <br> <br>
+    <!-- option 2 For event Handler -->
+    <button onclick="makeYellow()">Make Yellow</button>
+    <br>
+    <br>
+    <!-- option 3 for event Handler -->
+    <button id="btn"> Make Blue</button>
+
+    <!-- Option 4 add listener -->
+     <button id="Green">Make Green</button>
+
+    <script>
+        function makeYellow() {
+            document.body.style.backgroundColor = 'yellow';
+        }
+
+        const makeBlue = document.getElementById('btn');
+        makeBlue.onclick = function makeBlueBG() {
+            document.body.style.backgroundColor = 'blue'
+        }
+
+        document.getElementById('Green').addEventListener('click', function makeGreen(){
+            document.body.style.backgroundColor='green';
+        })
+    </script>
+</body>
+
+</html>
