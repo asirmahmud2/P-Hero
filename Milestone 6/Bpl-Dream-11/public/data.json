@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Virat Kohli",
+    "country": "India",
+    "height": "5 ft 9 in",
+    "rating": 9.5,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "price": 1500000,
+    "type": "Batsman",
+    "img": "https://i.ibb.co.com/p8NyLXZ/kohli231007.jpg"
+  },
+  {
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "height": "5 ft 11 in",
+    "rating": 9.2,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 1300000,
+    "type": "Batsman",
+    "img": "https://i.ibb.co.com/p8NyLXZ/kohli231007.jpg"
+  },
+  {
+    "name": "Joe Root",
+    "country": "England",
+    "height": "6 ft 0 in",
+    "rating": 9.0,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 1200000,
+    "type": "Batsman",
+    "img": "https://i.ibb.co.com/p8NyLXZ/kohli231007.jpg"
+  },
+  {
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "height": "5 ft 8 in",
+    "rating": 9.1,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 1250000,
+    "type": "Batsman",
+    "img": "https://i.ibb.co.com/p8NyLXZ/kohli231007.jpg"
+  },
+  {
+    "name": "Steve Smith",
+    "country": "Australia",
+    "height": "5 ft 9 in",
+    "rating": 9.3,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm leg spin",
+    "price": 1400000,
+    "type": "Batsman",
+    "img": "https://i.ibb.co.com/p8NyLXZ/kohli231007.jpg"
+  },
+  {
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "height": "5 ft 9 in",
+    "rating": 9.4,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Slow left-arm orthodox",
+    "price": 1350000,
+    "type": "All-rounder",
+    "img": "https://i.ibb.co.com/p8NyLXZ/kohli231007.jpg"
+  },
+  {
+    "name": "Ben Stokes",
+    "country": "England",
+    "height": "6 ft 1 in",
+    "rating": 9.3,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "price": 1450000,
+    "type": "All-rounder",
+    "img": "https://i.ibb.co.com/p8NyLXZ/kohli231007.jpg"
+  },
+  {
+    "name": "David Warner",
+    "country": "Australia",
+    "height": "5 ft 7 in",
+    "rating": 8.9,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm leg spin",
+    "price": 110000000,
+    "type": "Batsman",
+    "img": "https://i.ibb.co.com/p8NyLXZ/kohli231007.jpg"
+  }
+]
